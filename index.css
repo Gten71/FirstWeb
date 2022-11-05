@@ -10,7 +10,6 @@ body{
     overflow: hidden;
     height: 100vh;
     background-size: cover;
-    color: rgb(188, 221, 221);
     transform: translateY(-90px);
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
     animation-duration: 0.8s; 
@@ -41,6 +40,7 @@ body{
     transition: 0.5s;
 }
 #gittxt{
+    color: rgb(188, 221, 221);
     transform: translateY(15px);
 }
 #dis{
@@ -116,6 +116,7 @@ th{
     font-size: 30px;
 }
 .mainhead{
+    color: rgb(188, 221, 221);
     transform: translateY(30px);
 }
 .main12{
