@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(img/backgroundimg1920.png);
+    background-repeat: no-repeat;
+    object-fit: fill;
+    overflow: hidden;
+    height: 100vh;
+    background-size: cover;
+    color: rgb(188, 221, 221);
+    transform: translateY(-90px);
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation-duration: 0.8s; 
+}
+*{
+    animation-name: anim;
+    animation-duration: 1.3s;
+    font-family: 'Roboto', sans-serif;
+}
+#inst{
+    width: 50px;
+    height: 50px;
+}
+#icon{
+    display: flex;
+    align-items: center;
+}
+#github{
+    transform: translateY(30px);
+    width: 70px;
+    height: auto;
+    border-radius: 20%;
+}
+#githover:hover{
+    transform: scale(0.95);
+}
+#githover{
+    transition: 0.5s;
+}
+#gittxt{
+    transform: translateY(15px);
+}
+#dis{
+    background-color: aqua;
+    border-radius:20px;
+    margin-bottom:10px;
+    padding: 10px ;
+    border: 10 black solid ;
+    box-shadow: 1px 1px 1px black;
+    text-decoration: 0;
+    font-size: 19px;
+}
+#BattonDis :hover{
+    transform: scale(0.95) translateY(20px);
+}
+.back{
+    color: blueviolet;
+    font-weight: 700;
+    transition: 0.5s;
+    transform: translateY(20px);
+}
+#discordname{
+    padding: 1rem;
+    text-decoration: underline
+}
+#gtenindent{
+    text-indent: 10px;
+}
+span{
+    font-size: large;
+    font-weight: bold;
+}
+.txtfirstsite{
+    color: rgb(235, 178, 240);
+    font-weight: 700;
+}
+.socials{
+    transition: 0.7s;
+}
+.socials:hover{
+    transform: scale(0.95) skew(1deg);
+}
+.social_sise{
+    width: 40px;
+    height: 40px;
+}
+.main-social{
+    border: 1px solid pink;
+    min-height: 85px;
+    width: 400px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    border-radius: 15px ;
+    backdrop-filter: blur(11px);
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px rgb(233, 225, 225);
+}
+td{
+    font-weight: 500;
+}
+th{
+    font-weight: bool;
+}
+.firstpic{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 4px 2px 2px  pink ;
+}
+.mainhead p{
+    font-size: 30px;
+}
+.mainhead{
+    transform: translateY(30px);
+}
+.main12{
+    position: absolute;
+}
+hr{
+    width: 300px;
+    border-radius: 50%;
+}
+.second1{
+    transform: translateY(10px);
+    color: rgb(254, 224, 255);
+    text-decoration: 0;
+}
+#dicordi{
+    animation-name: transis;
+    animation-duration: 1.5s;
+    /* animation-iteration-count: infinite; */
+}
+@keyframes transis {
+    0%{
+        transform:translateY(300px);
+    }
+    
+}
+@keyframes anim {
+    0%{
+        transform: translateY(0px);
+        opacity: 0;
+
+    }
+    50%{
+        transform: translateY(0px);
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }    
+}
