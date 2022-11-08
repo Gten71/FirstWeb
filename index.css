@@ -10,7 +10,6 @@ body{
     overflow: hidden;
     height: 100vh;
     background-size: cover;
-    color: rgb(188, 221, 221);
     transform: translateY(-90px);
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
     animation-duration: 0.8s; 
@@ -19,6 +18,30 @@ body{
     animation-name: anim;
     animation-duration: 1.3s;
     font-family: 'Roboto', sans-serif;
+}
+.battondonate{
+    position: absolute;
+    background-color: black;
+    border-radius:20px;
+    padding: 10px ;
+    border: 1px black solid ;
+    box-shadow: 3px 2px 5px black;
+    font-weight: 700;
+    transition: 0.5s;
+    transform: translateX(950px);
+}
+#txthight{
+    font-weight: 700;
+    position: absolute;
+    transform: translate(950px,-50px);
+}
+.battondonate:hover{
+    transform: scale(0.95) translate(1000px);;
+}
+#donatetxt{
+    font-size: 19px;
+    color: white;
+    text-decoration: 0;
 }
 #inst{
     width: 50px;
@@ -41,25 +64,30 @@ body{
     transition: 0.5s;
 }
 #gittxt{
+    color: rgb(188, 221, 221);
     transform: translateY(15px);
 }
-#dis{
+#distxt{
+    color: blueviolet;
+    font-weight: 700;
+    text-decoration: 0;
+}
+#battondis{
     background-color: aqua;
     border-radius:20px;
-    margin-bottom:10px;
     padding: 10px ;
-    border: 10 black solid ;
-    box-shadow: 1px 1px 1px black;
-    text-decoration: 0;
+    /* border: 1px black solid ; */
+    box-shadow: 1px 2px 5px black;
     font-size: 19px;
+    transition: 0.5s;
+    transform: translateY(20px);
 }
-#BattonDis :hover{
+#battondis:hover{
     transform: scale(0.95) translateY(20px);
 }
 .back{
     color: blueviolet;
     font-weight: 700;
-    transition: 0.5s;
     transform: translateY(20px);
 }
 #discordname{
@@ -116,6 +144,7 @@ th{
     font-size: 30px;
 }
 .mainhead{
+    color: rgb(188, 221, 221);
     transform: translateY(30px);
 }
 .main12{
