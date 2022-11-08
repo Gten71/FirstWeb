@@ -19,6 +19,30 @@ body{
     animation-duration: 1.3s;
     font-family: 'Roboto', sans-serif;
 }
+.battondonate{
+    position: absolute;
+    background-color: black;
+    border-radius:20px;
+    padding: 10px ;
+    border: 1px black solid ;
+    box-shadow: 3px 2px 5px black;
+    font-weight: 700;
+    transition: 0.5s;
+    transform: translateX(950px);
+}
+#txthight{
+    font-weight: 700;
+    position: absolute;
+    transform: translate(950px,-50px);
+}
+.battondonate:hover{
+    transform: scale(0.95) translate(1000px);;
+}
+#donatetxt{
+    font-size: 19px;
+    color: white;
+    text-decoration: 0;
+}
 #inst{
     width: 50px;
     height: 50px;
@@ -43,23 +67,27 @@ body{
     color: rgb(188, 221, 221);
     transform: translateY(15px);
 }
-#dis{
+#distxt{
+    color: blueviolet;
+    font-weight: 700;
+    text-decoration: 0;
+}
+#battondis{
     background-color: aqua;
     border-radius:20px;
-    margin-bottom:10px;
     padding: 10px ;
-    border: 10 black solid ;
-    box-shadow: 1px 1px 1px black;
-    text-decoration: 0;
+    /* border: 1px black solid ; */
+    box-shadow: 1px 2px 5px black;
     font-size: 19px;
+    transition: 0.5s;
+    transform: translateY(20px);
 }
-#BattonDis :hover{
+#battondis:hover{
     transform: scale(0.95) translateY(20px);
 }
 .back{
     color: blueviolet;
     font-weight: 700;
-    transition: 0.5s;
     transform: translateY(20px);
 }
 #discordname{
