@@ -1,1 +1,2 @@
 1) shortcut icon
+2) donate link need set to right
