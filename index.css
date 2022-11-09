@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&display=swap');
 body{
     display: flex;
     justify-content: center;
@@ -10,13 +11,12 @@ body{
     background-attachment: fixed;
     background-position: 50% 50%;
     object-fit: fill;
-    /* overflow: hidden; */
+    overflow: hidden;
     height: 100vh;
     background-size: cover;
     transform: translateY(-90px);
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
     animation-duration: 0.8s; 
-    
 }
 *{
     animation-name: anim;
@@ -32,15 +32,18 @@ body{
     box-shadow: 3px 2px 5px black;
     font-weight: 700;
     transition: 0.5s;
-    transform: translateX(950px);
+    transform: translate(300px,-40px);
 }
 #txthight{
+    color: rgb(248, 12, 12);
     font-weight: 700;
+    font-size: 21px;
     position: absolute;
-    transform: translate(950px,-50px);
+    transform: translate(300px,-80px);
+    font-family: 'Comfortaa', sans-serif;
 }
 .battondonate:hover{
-    transform: scale(0.95) translate(1000px);;
+    transform: scale(0.95) translate(315px,-40px);;
 }
 #donatetxt{
     font-size: 19px;
@@ -68,7 +71,8 @@ body{
     transition: 0.5s;
 }
 #gittxt{
-    color: rgb(188, 221, 221);
+    font-family: 'Comfortaa', sans-serif;
+    color: rgb(0, 0, 0);
     transform: translateY(15px);
 }
 #distxt{
@@ -159,6 +163,9 @@ hr{
     border-radius: 50%;
 }
 .second1{
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: 'Comfortaa', sans-serif;
     transform: translateY(10px);
     color: rgb(254, 224, 255);
     text-decoration: 0;
