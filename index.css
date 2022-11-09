@@ -10,7 +10,7 @@ body{
     background-attachment: fixed;
     background-position: 50% 50%;
     object-fit: fill;
-    /* overflow: hidden; */
+    overflow: hidden;
     height: 100vh;
     background-size: cover;
     transform: translateY(-90px);
@@ -32,15 +32,16 @@ body{
     box-shadow: 3px 2px 5px black;
     font-weight: 700;
     transition: 0.5s;
-    transform: translateX(950px);
+    transform: translateX(300px);
 }
 #txthight{
+    color: black;
     font-weight: 700;
     position: absolute;
-    transform: translate(950px,-50px);
+    transform: translate(300px,50px);
 }
 .battondonate:hover{
-    transform: scale(0.95) translate(1000px);;
+    transform: scale(0.95) translate(320px);;
 }
 #donatetxt{
     font-size: 19px;
