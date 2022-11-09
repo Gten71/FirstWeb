@@ -32,18 +32,18 @@ body{
     box-shadow: 3px 2px 5px black;
     font-weight: 700;
     transition: 0.5s;
-    transform: translate(300px,-40px);
+    transform: translate(340px,-35px);
 }
 #txthight{
     color: rgb(248, 12, 12);
     font-weight: 700;
     font-size: 21px;
     position: absolute;
-    transform: translate(300px,-80px);
+    transform: translate(340px,-75px);
     font-family: 'Comfortaa', sans-serif;
 }
 .battondonate:hover{
-    transform: scale(0.95) translate(315px,-40px);;
+    transform: scale(0.95) translate(358px,-35px);;
 }
 #donatetxt{
     font-size: 19px;
