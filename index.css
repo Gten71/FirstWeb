@@ -11,10 +11,15 @@ body{
     background-attachment: fixed;
     background-position: 50% 50%;
     object-fit: fill;
+<<<<<<< HEAD
     overflow: hidden;
     height: 100vh;
+=======
+    /* overflow: hidden; */
+    /* height: 100vh; */
+>>>>>>> test
     background-size: cover;
-    transform: translateY(-90px);
+    /* transform: translateY(-90px); */
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
     animation-duration: 0.8s; 
 }
@@ -24,7 +29,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .battondonate{
-    position: absolute;
+    position:fixed;
     background-color: black;
     border-radius:20px;
     padding: 10px ;
@@ -38,7 +43,11 @@ body{
     color: rgb(248, 12, 12);
     font-weight: 700;
     font-size: 21px;
+<<<<<<< HEAD
     position: absolute;
+=======
+    position: fixed;
+>>>>>>> test
     transform: translate(340px,-75px);
     font-family: 'Comfortaa', sans-serif;
 }
