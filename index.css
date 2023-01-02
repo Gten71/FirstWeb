@@ -27,7 +27,8 @@ body{
     position:fixed;
     background-color: black;
     border-radius:20px;
-    padding: 10px ;
+    width: 200px;
+    height: 40px;
     border: 1px black solid ;
     box-shadow: 3px 2px 5px black;
     font-weight: 700;
@@ -43,9 +44,13 @@ body{
     font-family: 'Comfortaa', sans-serif;
 }
 .battondonate:hover{
-    transform: scale(0.95) translate(358px,-35px);;
+    transform: scale(0.95) translate(358px,-37px);;
 }
-#donatetxt{
+.donatetxt{
+    padding-top: 5px;
+    display: block;
+    width: 100%;
+    height: 100%;
     font-size: 19px;
     color: white;
     text-decoration: 0;
@@ -75,23 +80,40 @@ body{
     color: rgb(0, 0, 0);
     transform: translateY(15px);
 }
-#distxt{
-    color: blueviolet;
+.distxt{
+    color: rgb(161, 193, 223);
     font-weight: 700;
     text-decoration: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top:7px ;
+    transition: .5s;
 }
-#battondis{
-    background-color: aqua;
-    border-radius:20px;
-    padding: 10px ;
-    /* border: 1px black solid ; */
-    box-shadow: 1px 2px 5px black;
-    font-size: 19px;
-    transition: 0.5s;
+.distxt:hover{
+    color: white;
+}
+.battondis{
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(45deg, #6ab1d7 0%, #33d9de 50%, #002878 100%);
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    box-shadow: 0 16px 32px 0 rgba(0, 40, 120, .35);
+    transition: .5s;
     transform: translateY(20px);
 }
-#battondis:hover{
+.battondis:hover{
     transform: scale(0.95) translateY(20px);
+    box-shadow: 0 0px 0px 0 rgba(0, 40, 120, 0);
+    background-position: 0 0;
 }
 .back{
     color: blueviolet;
