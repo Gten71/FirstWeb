@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    animation-name: anim;
+    animation-duration: 1.3s;
+}
+body{
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-image: url(img/sonyaArt.png);
+    background-size:contain;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 100%;
+
+}
+.main{
+    width: 30%;
+    height: 600px;
+    margin: 30px auto auto;
+    background-color:azure;
+    opacity: 0.90;
+    border-radius: 14px;
+    border: 5px solid pink;
+    /* box-sizing: border-box; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 10px black;
+}
+
+.btn1{
+    background-color: white;
+    box-shadow: 1px 6px 7px grey;
+    border: none;
+    font-size: 14px;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    transform: translateY(50px);
+    font-size: 16px;
+}
+.btn2{
+    background-color: white;
+    box-shadow: 1px 6px 7px grey;
+    border: none;
+    font-size: 14px;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    transform: translateY(100px);
+}
+.btn3{
+    background-color: white;
+    box-shadow: 1px 6px 7px grey;
+    border: none;
+    font-size: 14px;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    transform:translateY(200px);
+    font-size: 16px;
+}
+.gif{
+    transform: translateY(150px);
+    border-radius: 100px;
+}
+a{
+    text-decoration: 0;
+    color: black;
+}
+.qiwi{
+    color:coral;
+}
+.donation{
+    color:chocolate;
+}
+@keyframes anim {
+    0%{
+        /* transform: translateY(0px); */
+        opacity: 0;
+
+    }
+    50%{
+        /* transform: translateY(0px); */
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }    
+}
