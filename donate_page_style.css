@@ -38,6 +38,16 @@ body{
     height: 50px;
     transform: translateY(50px);
     font-size: 16px;
+    transition: 0.8s;
+}
+.btn1:hover{
+    transform: scale(0.9) translateY(56px);
+}
+.btn2:hover{
+    transform: scale(0.9) translateY(111px);
+}
+.btn3:hover{
+    transform: scale(0.9) translateY(221px);
 }
 .btn2{
     background-color: white;
@@ -48,6 +58,7 @@ body{
     width: 150px;
     height: 50px;
     transform: translateY(100px);
+    transition: 0.8s;
 }
 .btn3{
     background-color: white;
@@ -59,6 +70,7 @@ body{
     height: 50px;
     transform:translateY(200px);
     font-size: 16px;
+    transition: 0.8s;
 }
 .gif{
     transform: translateY(150px);
