@@ -20,7 +20,7 @@ body{
     background-color:azure;
     opacity: 0.90;
     border-radius: 14px;
-    border: 5px solid pink;
+    border: 3px solid rgb(223, 169, 187);
     /* box-sizing: border-box; */
     display: flex;
     flex-direction: column;
@@ -29,62 +29,94 @@ body{
 }
 
 .btn1{
-    background-color: white;
-    box-shadow: 1px 6px 7px grey;
+    /* background-color: white; */
     border: none;
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 30px;
     width: 150px;
     height: 50px;
     transform: translateY(50px);
     font-size: 16px;
-    transition: 0.8s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: 150ms ease-in-out; 
+    text-decoration: none;
+    box-shadow: 0 0 40px 40px #2c3255 inset, 0 0 0 0 #000000;
+}
+.donationlink{
+    padding-top: 24px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #FF8C00;
+}
+.donationlink:hover{
+    color: #FF8C00;
+}
+.qiwi{
+    padding-top: 5px;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 .btn1:hover{
     transform: scale(0.9) translateY(56px);
+    box-shadow: 0 0 10px 0 #f3aed8 inset, 0 0 10px 4px #f378c2;
 }
 .btn2:hover{
     transform: scale(0.9) translateY(111px);
+    box-shadow: 0 0 10px 0 #f3aed8 inset, 0 0 10px 4px #f378c2;
 }
 .btn3:hover{
     transform: scale(0.9) translateY(221px);
+    box-shadow: 0 0 10px 0 #f3aed8 inset, 0 0 10px 4px #f378c2;
 }
 .btn2{
-    background-color: white;
-    box-shadow: 1px 6px 7px grey;
+     /* background-color: black; */
+    /* box-shadow: 1px 6px 7px grey; */
     border: none;
     font-size: 14px;
     border-radius: 30px;
     width: 150px;
     height: 50px;
     transform: translateY(100px);
-    transition: 0.8s;
+    transition: 150ms ease-in-out; 
+    text-decoration: none;
+    box-shadow: 0 0 40px 40px #343953 inset, 0 0 0 0 #4d5d7a;
 }
 .btn3{
-    background-color: white;
-    box-shadow: 1px 6px 7px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: none;
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 30px;
     width: 150px;
     height: 50px;
     transform:translateY(200px);
-    font-size: 16px;
-    transition: 0.8s;
+    transition: 150ms ease-in-out; 
+    text-decoration: none;
+    box-shadow: 0 0 40px 40px #343953 inset, 0 0 0 0 #000000;
+}
+.back{
+    padding: 20px;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 .gif{
     transform: translateY(150px);
     border-radius: 100px;
 }
 a{
+    color: white;
     text-decoration: 0;
-    color: black;
 }
-.qiwi{
-    color:coral;
-}
-.donation{
-    color:chocolate;
+a:hover{
+    color: #000000;
 }
 @keyframes anim {
     0%{
