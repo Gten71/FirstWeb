@@ -132,7 +132,7 @@ a:hover{
     }    
 }
 
-@media screen and ( max-width: 400px) {
+@media screen and ( max-width: 780px) {
     .main{
         width: 80%;
     }
