@@ -13,10 +13,10 @@ body{
     object-fit: fill;
     /* overflow: hidden; */
     /* height: 100vh; */
-    background-size: cover;
     /* transform: translateY(-90px); */
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-    animation-duration: 0.8s; 
+    /* animation-duration: 0.8s;  */
+    
 }
 *{
     animation-name: anim;
@@ -216,4 +216,34 @@ hr{
     100%{
         opacity: 1;
     }    
+}
+@media screen and (max-width: 400px) {
+    .battondonate{
+        transform: translate(80px,-65px);
+    }
+    .battondonate:hover{
+        transform: scale(0.95) translate(85px,-68px);;
+    }
+    body{
+        background-position: 60% 100%;
+        overflow: hidden;
+    }
+    .main-social{
+        animation-name: none;
+    }
+
+    @keyframes anim {
+        0%{
+            opacity: 0;
+    
+        }
+        50%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }    
+    }
+   
+    
 }
