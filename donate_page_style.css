@@ -136,24 +136,22 @@ a:hover{
     .main{
         width: 80%;
         height: 500px;
+        opacity: 1;
     }
     .gif{
-        position: absolute;
-        transform: translate(100px, -300px);
-        /* opacity: 0.90; */
-
-
+        transform: translateY(100px);
+        width: 55%;
     }
-
     body{
         background-position: 80% 100%;
     }
+    
     .btn3{
-       
-        transform: translateY(330px);
+        transform:translateY(140px);
     }
+
     .btn3:hover{
-        transform: scale(0.9) translateY(365px);
+        transform: scale(0.9) translateY(155px);
         box-shadow: 0 0 10px 0 #f3aed8 inset, 0 0 10px 4px #f378c2;
     }
 
