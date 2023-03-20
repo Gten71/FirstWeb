@@ -135,10 +135,11 @@ a:hover{
 @media screen and ( max-width: 780px) {
     .main{
         width: 80%;
+        height: 500px;
     }
     .gif{
         position: absolute;
-        transform: translate(100px, -350px);
+        transform: translate(100px, -300px);
         /* opacity: 0.90; */
 
 
@@ -149,10 +150,10 @@ a:hover{
     }
     .btn3{
        
-        transform: translateY(400px);
+        transform: translateY(330px);
     }
     .btn3:hover{
-        transform: scale(0.9) translateY(445px);
+        transform: scale(0.9) translateY(365px);
         box-shadow: 0 0 10px 0 #f3aed8 inset, 0 0 10px 4px #f378c2;
     }
 
